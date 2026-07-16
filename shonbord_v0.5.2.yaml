@@ -270,41 +270,29 @@ pcbs:
         adjust:
           shift: [0, 17.5]
       m2_screw_botleft:
-        what: ceoloide/mounting_hole_npth
+        what: ceoloide/mounting_hole_plated
         where: 
-          ref: matrix_ring_bottom
+          ref: matrix_middle_home
         adjust:
-          shift: [-4,-25.5]
-        params:
-          hole_size: 4.6
-          hole_drill: 2.2
+          shift: [-2.625px,-2.875py]
       m2_screw_botright:
-        what: ceoloide/mounting_hole_npth
+        what: ceoloide/mounting_hole_plated
         where: 
-          ref: matrix_index_bottom
+          ref: matrix_middle_home
         adjust:
-          shift: [13,-25.5]
-        params:
-          hole_size: 4.6
-          hole_drill: 2.2
+          shift: [4.25px,-2.875py]
       m2_screw_topleft:
-        what: ceoloide/mounting_hole_npth
+        what: ceoloide/mounting_hole_plated
         where: 
-          ref: matrix_pinky_top
+          ref: matrix_middle_home
         adjust:
-          shift: [-4,21.5]
-        params:
-          hole_size: 4.6
-          hole_drill: 2.2
+          shift: [-2.625px,1.625py]
       m2_screw_topright:
-        what: ceoloide/mounting_hole_npth
+        what: ceoloide/mounting_hole_plated
         where: 
-          ref: matrix_inner_top
+          ref: matrix_middle_home
         adjust:
-          shift: [32.5,4]
-        params:
-          hole_size: 4.6
-          hole_drill: 2.2
+          shift: [4.25px,1.625py]
 cases:
   bottom:
     - name: board
